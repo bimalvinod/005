@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc1.css" type="text/css" />
+<title>Research Projects </title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">menu</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="academics.html">Academics</a></div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<!--<div class="menu-item"><a href="awards.html">Awards&nbsp;and&nbsp;Honours</a></div>-->
+<div class="menu-item"><a href="cv.html">CV</a></div>
+<div class="menu-item"><a href="misc.html">Miscellaneous</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Research Projects </h1>
+</div>
+<h2>Hand Gesture Recognition using Dynamic Vision Sensors(Master's Thesis) </h2>
+<p><b>Guide :</b> <a href="http://www.umiacs.umd.edu/~kmitra/"><b>Prof. Kaushik Mitra</b></a> <br /></p>
+<p>Augmented Reality (AR) has revolutionized the way humans interact with computers.
+While the displays of mobile phones, tablets and PCs of today are limited to an electronic gadget, the AR headsets remove this barrier and project the information directly
+into the real world. It gives rise to a whole new level of interaction with the digital media and its applications seem to be endless. Undoubtedly, AR is going to be the future
+and hence its battery life becomes more critical. It is observed that one of the major
+power consuming components in these systems are the cameras. Current AR systems
+use conventional vision sensors. In this report, we propose to replace the traditional
+"power-hungry" cameras in AR systems with the low power Dynamic Vision Sensors
+(DVS) to boost their battery life. In DVS, independent pixels send out information in
+the form of "events" whenever the scene brightness changes above a threshold, at the
+time they occur. Thus, unlike the traditional vision sensors which captures redundant
+information(static scenes) over many frames, DVS captures only the dynamic content
+in the scene. This reduces the power consumption and storage/memory requirements
+drastically. Replacing all the tasks done by the static vision sensors in AR devices
+with DVS is indeed a big challenging task. Nevertheless we started our mission with
+a relatively simpler task which is the gesture recognition.This report explains gesture
+recognition performed on a simulated DVS dataset and on a real DVS dataset collected
+by us.Finally as expected,we were able to claim that classification accuracies from a
+simulated stereo DVS is better than a single DVS alone if depth related gestures are
+involved.See the below links for the full thesis Report and the slides.</p>
+
+
+<p><a href="thesis.pdf">[Thesis Report]</a>  
+
+<!--
+<h3>Compressive Image Recovery using Recurrent Generative Model</h3>
+<p><a href="https://arxiv.org/abs/1612.04229">[paper]</a> <a href="https://github.com/adaveiitm/ride">[code]</a> </p>
+<p>In this work, we use auto-regressive generative model, <a href="https://arxiv.org/abs/1506.03478">RIDE</a>, for compressive image restoration tasks such as random mask inpainting and single pixel camera recovery. We utilize RIDE’s ability as an image prior to model long term dependencies for reconstructing compressively sensed images. We use backpropagation to inputs while doing gradient ascent for MAP inference.</p>
+
+<ul>
+<li>Random Mask Inpainting</li>
+</ul>
+<table><thead>
+<tr>
+<th align="center">Original Image</th>
+<th align="center">Masked Image</th>
+<th align="center">During Gradient Ascent</th>
+<th align="center">Recovered Image</th>
+</tr>
+</thead><tbody>
+<tr>
+<td align="center"><a href="https://github.com/adaveiitm/ride/blob/master/code/images/interpolate/original_img.png" target="_blank"><img src="https://github.com/adaveiitm/ride/raw/master/code/images/interpolate/original_img.png" alt="" style="max-width:100%;"></a></td>
+<td align="center"><a href="https://github.com/adaveiitm/ride/blob/master/code/images/interpolate/noisy_img.png" target="_blank"><img src="https://github.com/adaveiitm/ride/raw/master/code/images/interpolate/noisy_img.png" alt="" style="max-width:100%;"></a></td>
+<td align="center"><a href="https://github.com/adaveiitm/ride/blob/master/code/images/interpolate/animation.gif" target="_blank"><img src="https://github.com/adaveiitm/ride/raw/master/code/images/interpolate/animation.gif" alt="" style="max-width:100%;"></a></td>
+<td align="center"><a href="https://github.com/adaveiitm/ride/blob/master/code/images/interpolate/cleaned_img300.png" target="_blank"><img src="https://github.com/adaveiitm/ride/raw/master/code/images/interpolate/cleaned_img300.png" alt="" style="max-width:100%;"></a></td>
+</tr>
+</tbody></table>
+
+
+<ul>
+<li>Single Pixel Camera Recovery</li>
+</ul>
+<table><thead>
+<tr>
+<th align="center">Original Image</th>
+<th align="center">Initial Image</th>
+<th align="center">During Gradient Ascent</th>
+<th align="center">Recovered Image</th>
+</tr>
+</thead><tbody>
+<tr>
+<td align="center"><a href="https://github.com/adaveiitm/ride/blob/master/code/images/single_pixel/original_img.png" target="_blank"><img src="https://github.com/adaveiitm/ride/raw/master/code/images/single_pixel/original_img.png" alt="" style="max-width:100%;"></a></td>
+<td align="center"><a href="https://github.com/adaveiitm/ride/blob/master/code/images/single_pixel/img000.png" target="_blank"><img src="https://github.com/adaveiitm/ride/raw/master/code/images/single_pixel/img000.png" alt="" style="max-width:100%;"></a></td>
+<td align="center"><a href="https://github.com/adaveiitm/ride/blob/master/code/images/single_pixel/animation.gif" target="_blank"><img src="https://github.com/adaveiitm/ride/raw/master/code/images/single_pixel/animation.gif" alt="" style="max-width:100%;"></a></td>
+<td align="center"><a href="https://github.com/adaveiitm/ride/blob/master/code/images/single_pixel/img130.png" target="_blank"><img src="https://github.com/adaveiitm/ride/raw/master/code/images/single_pixel/img130.png" alt="" style="max-width:100%;"></a></td>
+</tr>
+</tbody></table>
+
+
+<h3>Generative Colorization of Grayscale Images</h3>
+<p>In this project, we levarage the application of conditional generative adversarial networks in producing different plausible colorizations of the same grayscale image. We are currently exploring different architectures which enforce stochasticity, so that there is significant variation in the produced colorized images.</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2017-01-08 16:26:27 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
